@@ -1,0 +1,17 @@
+table,tr,td,th{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+tr{
+    border: none;
+}
+table{
+    width: 200px;
+    height: 300px;
+}
+.g1{
+    width: 150px;
+}
+button{
+    margin-left: 145px;
+}

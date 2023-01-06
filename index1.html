@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Css/index1.css" />
+    <title>Homework-13 Table</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" class="g1"></td>
+        </tr>
+
+        <tr></tr>
+        <tr>
+          <td>Gender</td>
+          <div class="h1">
+            <td>
+              <input type="radio" id="radio" />
+              <label for="radio">Male</label>
+              <br />
+              <input type="radio" id="radio" />
+              <label for="radio">Female</label>
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <td>Eye color</td>
+          <td>
+            <select>
+              <option value="color">Green</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Check all that apply</td>
+          <td>
+            <input type="checkbox" id="Check" />
+            <label for="Check">Over 6 feet tall</label>
+            <br>
+            <input type="checkbox" id="Check" />
+            <label for="Check">Over 200 pounds</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><label for="description">Describe your athletic ability:</label></td>
+        </tr> 
+        <tr>
+          <td colspan="2"><textarea cols="60" rows="3" id="description"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="button">Enter my information</button>
+          </td>
+        </tr>
+      </thead>
+    </table>
+  </body>
+</html>

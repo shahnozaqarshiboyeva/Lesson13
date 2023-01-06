@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+table,th,tr,td{
+    border: 2px solid;
+}
+p{
+    font-size: 25px;
+    line-height: 10px;
+}
+table{
+    width: 700px;
+    height: 170px;
+    margin-left: 400px;
+}

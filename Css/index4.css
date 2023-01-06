@@ -1,0 +1,89 @@
+body{
+    height: 727px;
+width: 1400px;
+}
+table,tr,td,th{
+    box-sizing: border-box;
+border: 1px solid #E1E5EE;
+border-collapse: collapse;}
+@font-face {
+    font-family: Rubik-SemiBold;
+    src: url(../Rubik-SemiBold.ttf);
+}
+h1{
+    font-family: 'Rubik-SemiBold';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+color: #363940;
+margin-top: 100px;
+}
+p{
+    font-family: 'Rubik-SemiBold';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #95A1BB;
+padding-top: 20px;
+padding-bottom: 40px;
+}
+table{
+    margin-left: 230px;
+    width: 940px;
+height: 402px;
+text-align: center;
+}
+thead{
+    height: 52px;
+}
+span{
+    color: #95A1BB;
+    padding-right: 10px;
+}
+td{
+    padding-right: 20px;
+    height: 22px;
+left: 20px;
+right: 20px;
+font-family: 'Rubik-Semibold';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #363940;
+}
+.H3{
+    height: 22px;
+left: 20px;
+right: 20px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #6E38F7;
+}
+button{
+    text-transform: uppercase;
+    height: 36px;
+width: 140px;
+border: 1px solid #6E38F7;
+border-radius: 4px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #6E38F7;
+}
+.H2{
+    background: #FFFFFF;
+}
+.H6{
+    background: #6E38F7;
+    color: white;
+}
